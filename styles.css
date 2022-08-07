@@ -1,0 +1,87 @@
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: yellow;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.hero-block {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding:100px;
+    flex:1;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: green;
+    flex:1;
+}
+
+.info-img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 21px;
+}
+
+.info-content {
+    display: flex;
+    gap: 8px;
+}
+
+/*ANG HIRAP NAMAN NG QUOTE PART*/
+
+.cto-block {
+    display:flex;
+    justify-content: center;
+    flex:1;
+}
+
+.cto-blue {
+    background-color: blue;
+    display:flex;
+    padding: 20px 100px;
+    border-radius: 10px;
+}
+
+.cto {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    background-color: grey;
+    margin-top: auto;
+    flex-shrink: 0;
+}

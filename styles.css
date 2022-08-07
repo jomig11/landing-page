@@ -1,6 +1,15 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
 .all {
     display: flex;
     flex-direction: column;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .main {
@@ -12,69 +21,148 @@
 .header {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding:20px;
-    background-color: yellow;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .links {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+
 }
 
 .hero-block {
     display: flex;
-    justify-content: space-around;
-    background-color: blue;
+    justify-content: space-evenly;
+    background-color: #1F2937;
     padding:100px;
     flex:1;
 }
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    width: 400px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:250px;
+    background: grey;
+    color:white;
+}
+
 
 .info-block {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    background-color: green;
+    gap: 20px;
+    background-color: #f9faf8;;
     flex:1;
+    padding: 20px;
 }
 
 .info-img {
     display: flex;
-    width: 100px;
-    height: 100px;
-    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
     border-radius: 21px;
 }
 
 .info-content {
     display: flex;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    width: 200px;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
 }
 
 /*ANG HIRAP NAMAN NG QUOTE PART*/
 
+.quote-block {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
 .cto-block {
     display:flex;
     justify-content: center;
-    flex:1;
+    padding: 50px;
+    border: 2px red solid;
+
 }
 
-.cto-blue {
-    background-color: blue;
-    display:flex;
-    padding: 20px 100px;
-    border-radius: 10px;
-}
 
 .cto {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
+    border: 2px red solid;
+    padding: 10px 50px;
+    gap: 100px;
 }
+
+.cto-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
 
 
 .footer {

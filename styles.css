@@ -45,6 +45,8 @@ a {
     background-color: #1F2937;
     padding:100px;
     flex:1;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .hero-title {
@@ -68,6 +70,13 @@ a {
     height:250px;
     background: grey;
     color:white;
+    flex-shrink: 0;
+}
+
+.hero-left {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
 }
 
 

@@ -90,6 +90,17 @@ a {
   border: 2px solid red;
 }
 
+.info-text-block {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+  border: solid 2px red;
+}
+
+.info-imgs {
+  display: flex;
+}
+
 .info-img {
   display: flex;
   width: 100px;
@@ -101,13 +112,6 @@ a {
 .info-content {
   display: flex;
   gap: 8px;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid red;
-}
-
-.info-item {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;

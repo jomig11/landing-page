@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+body {
+  min-height: 100vh;
+}
+
 a {
   font-size: 18px;
   color: #e5e7eb;
@@ -15,7 +19,7 @@ a {
 .main {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .header {
@@ -42,7 +46,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   background-color: #1f2937;
-  padding: 100px;
+  padding: 150px;
   flex: 1;
   gap: 20px;
 }
@@ -101,7 +105,8 @@ a {
 .info-img-block {
   display: flex;
   justify-content: space-between;
-  gap: 1em;
+  gap: 2px;
+  padding: 20px;
 }
 
 .info-img-col {
@@ -131,7 +136,7 @@ a {
 .quote-block {
   background-color: #e5e7eb;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 100px;
 }
 
@@ -139,6 +144,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 50%;
 }
 
 .quote {
@@ -148,10 +154,15 @@ a {
   font-style: italic;
 }
 
+.quote-author p {
+  font-weight: 300;
+}
+
 .cta-block {
   display: flex;
   justify-content: center;
   padding: 50px;
+  flex: 1;
 }
 
 .cta {
@@ -159,9 +170,9 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  border-radius: 15px;
-  padding: 10px 50px;
-  gap: 100px;
+  border-radius: 10px;
+  padding: 2em 5em;
+  gap: 200px;
   background-color: #3882f6;
 }
 
@@ -171,30 +182,59 @@ a {
   gap: 0px;
 }
 
-.cta-button,
-.cta-big p,
-.cta-small p {
+.hero-button button {
+  border-radius: 15px;
+  background-color: #3882f6;
+  padding: 10px;
+  color: #f9faf8;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 1em;
+  border: none;
+}
+
+.cta-button button {
+  border-radius: 15px;
+  background-color: #3882f6;
+  padding: 10px;
+  border: #f9faf8 2px solid;
+  color: #f9faf8;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 20px;
 }
 
 .cta-big,
 .cta-small {
-  color: white;
+  color: #f9faf8;
 }
 
 .cta-big {
   font-size: 24px;
   margin: 0px;
+  font-weight: 600;
 }
 
 .cta-small {
+  font-size: 18px;
+  margin: 0px;
   font-weight: 300;
+}
+
+.cta-small p,
+.cta-big p {
+  padding: 5px;
+  margin: 0px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background-color: grey;
+  background-color: #1f2937;
   margin-top: auto;
   flex-shrink: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
 }
